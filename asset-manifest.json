@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/permstudios/static/css/main.da6f848c.chunk.css",
+    "main.js": "/permstudios/static/js/main.cf4002d4.chunk.js",
+    "main.js.map": "/permstudios/static/js/main.cf4002d4.chunk.js.map",
+    "runtime-main.js": "/permstudios/static/js/runtime-main.9c60f98a.js",
+    "runtime-main.js.map": "/permstudios/static/js/runtime-main.9c60f98a.js.map",
+    "static/js/2.67d878e4.chunk.js": "/permstudios/static/js/2.67d878e4.chunk.js",
+    "static/js/2.67d878e4.chunk.js.map": "/permstudios/static/js/2.67d878e4.chunk.js.map",
+    "index.html": "/permstudios/index.html",
+    "static/css/main.da6f848c.chunk.css.map": "/permstudios/static/css/main.da6f848c.chunk.css.map",
+    "static/js/2.67d878e4.chunk.js.LICENSE.txt": "/permstudios/static/js/2.67d878e4.chunk.js.LICENSE.txt",
+    "static/media/app.scss": "/permstudios/static/media/ProximaNova-Regular.d97f8f32.eot",
+    "static/media/cameraLogo.ba323590.svg": "/permstudios/static/media/cameraLogo.ba323590.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9c60f98a.js",
+    "static/js/2.67d878e4.chunk.js",
+    "static/css/main.da6f848c.chunk.css",
+    "static/js/main.cf4002d4.chunk.js"
+  ]
+}
