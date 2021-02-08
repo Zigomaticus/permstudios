@@ -9,7 +9,7 @@ function StudioBlock({ title, adress, reference, price, imageUrl }) {
       <div className="studio-block-content">
         <div className="studio-block-title">{title}</div>
         <div className="studio-block-adress">Адрес: ул. {adress}</div>
-        <a href={reference} target="_blank">
+        <a href={reference} target="_blank" rel='void'>
           <div className="studio-block-description">Группа вк: {reference}</div>
         </a>
         <div className="studio-block-price">
