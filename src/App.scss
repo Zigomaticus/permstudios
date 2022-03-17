@@ -1,0 +1,26 @@
+.App {
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 1000px;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: white;
+
+  .header {
+    display: flex;
+    align-items: center;
+
+    &__text {
+      margin-left: 10px;
+
+      &_title {
+        font-size: 30px;
+        font-weight: 700;
+      }
+
+      &_text {
+        opacity: .6;
+      }
+    }
+  }
+}
