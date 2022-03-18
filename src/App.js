@@ -16,6 +16,7 @@ function App() {
             Все фотостудии Перми на одном сайте
           </div>
         </div>
+        <input placeholder="Найти студию..." />
       </div>
       <div className="disctricts">123</div>
       <div className="content">123</div>
