@@ -1,24 +1,31 @@
-// Static
-import logo from "./static/logo.png";
+import React from "react";
+// Components
+import Header from "./components/header/Header";
 // Css
 import "./App.scss";
+
+const disctricts = [
+  "Все районы",
+  "Дзержинский",
+  "Ленинский",
+  "Свердловский",
+  "Индустриальный",
+  "Мотовилихинский",
+  "Орджоникидзевский",
+  "Кировский",
+];
 
 function App() {
   return (
     <div className="App">
-      <div className="header">
-        <div className="header__logo">
-          <img src={logo} alt="logo" width={64} height={64} />
-        </div>
-        <div className="header__text">
-          <div className="header__text_title">Фотостудии Перми</div>
-          <div className="header__text_text">
-            Все фотостудии Перми на одном сайте
-          </div>
-        </div>
-        <input placeholder="Найти студию..." />
+      <Header />
+      <div className="disctrict">
+        {disctricts.map((disctrict) => (
+          <ul>
+            <li key={disctrict}>{disctrict}</li>
+          </ul>
+        ))}
       </div>
-      <div className="disctricts">123</div>
       <div className="content">123</div>
       <div className="bottom">123</div>
     </div>
