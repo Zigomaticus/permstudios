@@ -1,6 +1,7 @@
 import React from "react";
 // Components
 import Header from "./components/header/Header";
+import District from "./components/district/District";
 // Css
 import "./App.scss";
 
@@ -19,13 +20,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <div className="disctrict">
-        {disctricts.map((disctrict) => (
-          <ul>
-            <li key={disctrict}>{disctrict}</li>
-          </ul>
-        ))}
-      </div>
+      <District disctricts={disctricts} />
       <div className="content">123</div>
       <div className="bottom">123</div>
     </div>
