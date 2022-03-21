@@ -5,4 +5,18 @@
   border-radius: 8px;
   padding: 20px;
   background-color: white;
+
+  .content {
+    margin-top: 10px;
+    
+    .content__left {
+      .studio {
+        width: 600px;
+        height: 100px;
+        background-color: aquamarine;
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
 }

@@ -21,7 +21,16 @@ function App() {
     <div className="App">
       <Header />
       <District disctricts={disctricts} />
-      <div className="content">123</div>
+      <div className="content">
+        <div className="content__left">
+          <div className="studio">
+            <div className="studio__photo">1</div>
+            <div className="studio__text">2</div>
+            <div className="studio__price">3</div>
+          </div>
+        </div>
+        <div className="content__right"></div>
+      </div>
       <div className="bottom">123</div>
     </div>
   );
