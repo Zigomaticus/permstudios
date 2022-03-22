@@ -6,17 +6,9 @@
   padding: 20px;
   background-color: white;
 
-  .content {
+  .main {
     margin-top: 10px;
-    
-    .content__left {
-      .studio {
-        width: 600px;
-        height: 100px;
-        background-color: aquamarine;
-        display: flex;
-        justify-content: space-between;
-      }
-    }
+    display: flex;
+    justify-content: space-between;
   }
 }

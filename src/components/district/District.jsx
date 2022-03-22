@@ -5,9 +5,9 @@ import styles from "./District.module.scss";
 const District = ({ disctricts }) => {
   return (
     <div className={styles.disctrict}>
-      {disctricts.map((disctrict) => (
-        <ul>
-          <li key={disctrict}>{disctrict}</li>
+      {disctricts.map(({name, id}) => (
+        <ul key={id}>
+          <li>{name}</li>
         </ul>
       ))}
     </div>
