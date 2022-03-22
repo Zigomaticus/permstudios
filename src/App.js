@@ -7,14 +7,14 @@ import Studio from "./components/main/studio/Studio";
 import "./App.scss";
 
 const disctricts = [
-  { id: 0, name: "Все районы" },
-  { id: 1, name: "Дзержинский" },
-  { id: 2, name: "Ленинский" },
-  { id: 3, name: "Свердловский" },
-  { id: 4, name: "Индустриальный" },
-  { id: 5, name: "Мотовилихинский" },
-  { id: 6, name: "Орджоникидзевский" },
-  { id: 7, name: "Кировский" },
+  { id: 0, name: "Все районы" }, // all
+  { id: 1, name: "Дзержинский" }, // all
+  { id: 2, name: "Ленинский" }, // all
+  { id: 3, name: "Свердловский" }, // all
+  { id: 4, name: "Индустриальный" }, // all
+  { id: 5, name: "Мотовилихинский" }, // all
+  { id: 6, name: "Орджоникидзевский" }, // all
+  { id: 7, name: "Кировский" }, // all
 ];
 
 function App() {

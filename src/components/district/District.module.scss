@@ -8,10 +8,17 @@
     padding: 0 8px 0 0;
     li {
       padding: 6px 15px;
-      background-color: rgb(39, 39, 39);
+      background-color: rgb(211, 204, 204);
+      color: black;
       border-radius: 20px;
       list-style: none;
-      color: white;
+      transition: .1s all linear;
+
+      &:hover {
+        background-color: rgb(39, 39, 39);
+        color: white;
+        cursor: pointer;
+      }
     }
   }
 }

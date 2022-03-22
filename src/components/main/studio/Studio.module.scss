@@ -20,7 +20,7 @@
     }
 
     &__text {
-        text-align: center;
+      text-align: center;
       margin-top: 35px;
 
       &_title {
@@ -29,9 +29,13 @@
       }
       &_address {
         margin-bottom: 10px;
-        opacity: .6;
+        opacity: 0.6;
       }
       &_reference {
+        a {
+          text-decoration: none;
+          color: blue;
+        }
       }
     }
 

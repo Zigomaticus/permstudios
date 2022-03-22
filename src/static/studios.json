@@ -1,32 +1,32 @@
 [
   {
     "id": 0,
-    "imageUrl": "https://sun9-46.userapi.com/impf/c841124/v841124283/7f54e/CIeELKnYV5g.jpg?size=1280x853&quality=96&proxy=1&sign=3b322994b074138fa8d1f7b913c4a2fa&type=album",
+    "imageUrl": "https://sun9-4.userapi.com/impf/w-W_8zkOXoqjT7rnNwxKa_7e-EFdX1w-zGGNKg/gHWwzWHlZRo.jpg?size=2560x1920&quality=95&sign=757709c9397f5b9a948b13c276d0197d&type=album",
     "reference": "https://vk.com/prestige_fotostudio",
     "adress": "Дружбы, 34а (площадь Дружбы)",
     "title": "PRESTIGE",
-    "price": 1100,
-    "category": 4,
+    "price": 1300,
+    "disctrict": 5,
     "popular": 30
   },
   {
     "id": 1,
-    "imageUrl": "https://sun9-42.userapi.com/impf/c630425/v630425387/419b0/9PfEi-EsijI.jpg?size=1280x852&quality=96&proxy=1&sign=4e3df1b2fdd5f07138d8b338ec9b816c&type=album",
-    "reference": "https://vk.com/loftfabrika",
+    "imageUrl": "https://sun9-86.userapi.com/impg/7_CkYsZl4TR5An1hmpxM2F8LJKWKb-NOEJssVA/2hrqbIehkvA.jpg?size=852x568&quality=96&sign=16b5b4095491a97613b1ffdb170524a5&type=album",
+    "reference": "https://vk.com/history_studio_perm",
     "adress": "Лодыгина, 9",
-    "title": "LABORATORY. Зал Loft Fabrika",
+    "title": "HISTORY . Зал Loft",
     "price": 1290,
-    "category": 2,
+    "disctrict": 3,
     "popular": 28
   },
   {
     "id": 2,
-    "imageUrl": "https://sun9-39.userapi.com/impf/z0NlKiy3rIFAQVUo2ZfU1qSAKDJ6XQ9fKfDLdg/z6zwM7BttGg.jpg?size=939x626&quality=96&proxy=1&sign=ecb34a801a8dc7bdfc107254ce8d70d8&type=album",
-    "reference": "https://vk.com/loftfabrika",
+    "imageUrl": "https://sun9-71.userapi.com/impg/JgqYv8VJ0_cD0bwZC-FXyF_MU926DiGE5c_C-A/vxHg1nKpLo4.jpg?size=1920x1279&quality=96&sign=96e1bc43377524393e5915661f3d0ad9&type=album",
+    "reference": "https://vk.com/history_studio_perm",
     "adress": "Пионерская, 4",
-    "title": "LABORATORY.Залы Скандинавия и Стокгольм",
-    "price": 1290,
-    "category": 2,
+    "title": "HISTORY .Залы Форма и History",
+    "price": 1300,
+    "disctrict": 3,
     "popular": 29
   },
   {
@@ -36,18 +36,18 @@
     "adress": "Ленина, д. 34Б",
     "title": "Новая Маска",
     "price": 1200,
-    "category": 1,
+    "disctrict": 1,
     "popular": 27
   },
   {
     "id": 4,
-    "imageUrl": "https://sun9-1.userapi.com/impf/FzlABPPJ5b6JXkv_x0bdudPDKTLPbm43p-eNQw/voCI0TjtViU.jpg?size=1300x868&quality=96&proxy=1&sign=bd048dd73c90ba809fbd2fd2c6ec3069&type=album",
+    "imageUrl": "https://sun9-34.userapi.com/impg/kdtxF9LoywD2zAudINb_a8_T56V1U7AyiVJl4w/XxbOET1Tnlo.jpg?size=1300x868&quality=95&sign=125278436031a07e79d73a26ec685aa6&type=album",
     "reference": "https://vk.com/arthouse_photo",
     "adress": "Шоссе Космонавтов, 111, корпус 27",
     "title": "ARTHOUSE",
-    "price": 1200,
-    "category": 3,
-    "popular": 26
+    "price": 1300,
+    "disctrict": 4,
+    "popular": 6
   },
   {
     "id": 5,
@@ -56,27 +56,27 @@
     "adress": "25 Октября ул. 17",
     "title": "Ирис",
     "price": 550,
-    "category": 1,
+    "disctrict": 1,
     "popular": 25
   },
   {
     "id": 6,
-    "imageUrl": "https://sun9-16.userapi.com/impf/v29Cg-IQdV84ioufwaVNhLhaVjiWJHCu5FRTdQ/4fzwdlOFPmk.jpg?size=1920x1440&quality=96&proxy=1&sign=87ab545e556ab6875945ab6e980acb46&type=album",
+    "imageUrl": "https://sun9-71.userapi.com/impg/KOBltvIVGQb9iZrD6zNl-SzE1ldJDBkCA4DJ5w/zHua9nrFQBk.jpg?size=1920x1440&quality=96&sign=50b96898e6ef6b9f47ca45f8a97c2514&type=album",
     "reference": "https://vk.com/oknastudio",
     "adress": "Уральская, 102",
     "title": "ОКНА",
-    "price": 1000,
-    "category": 4,
+    "price": 1100,
+    "disctrict": 5,
     "popular": 24
   },
   {
     "id": 7,
-    "imageUrl": "https://sun9-63.userapi.com/impg/D5YIvX9xkYfAZG2sv1u5HktK6jzJqfBNzDkWjg/ysJLPG5Fak4.jpg?size=1600x900&quality=96&proxy=1&sign=11adba6db18ba9f3aeb0adfef569816b&type=album",
+    "imageUrl": "https://sun9-67.userapi.com/impg/J777vcDd5aMcGtPg_WXUNTFPd79G_SkC1F_qZQ/7cBBHXKApHk.jpg?size=1280x853&quality=95&sign=11502d2bedfe276341f743e1e85b5d0b&type=album",
     "reference": "https://vk.com/noframe_studio",
     "adress": "Окулова 75, корпус 8",
     "title": "NOFRAME",
-    "price": 900,
-    "category": 0,
+    "price": 1200,
+    "disctrict": 1,
     "popular": 23
   },
   {
@@ -86,7 +86,7 @@
     "adress": "Куйбышева, 2",
     "title": "Мозайка",
     "price": 1000,
-    "category": 1,
+    "disctrict": 1,
     "popular": 23
   },
   {
@@ -96,7 +96,7 @@
     "adress": "Монастырская, 12а",
     "title": "КАРАМЕЛЬ",
     "price": 800,
-    "category": 1,
+    "disctrict": 1,
     "popular": 22
   },
   {
@@ -106,7 +106,7 @@
     "adress": "Лодыгина, 9",
     "title": "Лес",
     "price": 900,
-    "category": 2,
+    "disctrict": 2,
     "popular": 21
   },
   {
@@ -116,7 +116,7 @@
     "adress": "Чернышевского, 15б",
     "title": "MANKA",
     "price": 1000,
-    "category": 2,
+    "disctrict": 2,
     "popular": 20
   },
   {
@@ -125,18 +125,18 @@
     "reference": "https://vk.com/lampaperm",
     "adress": "Веры Засуличь, 42а",
     "title": "Lampa",
-    "price": 700,
-    "category": 3,
+    "price": 900,
+    "disctrict": 4,
     "popular": 19
   },
   {
     "id": 13,
-    "imageUrl": "https://sun9-6.userapi.com/impg/rIuq_RdHHevx8jS4YUFs2u5v-KXCGXWfL14W-A/q5tfit5BiC0.jpg?size=1440x1920&quality=96&proxy=1&sign=bc9556b85fd0916305ecc8fabc8ca9bb&type=album",
+    "imageUrl": "https://sun9-20.userapi.com/impf/EGBSoPfRfP302pIyzZwc6H_HaFg2JJexe2X3Xw/3FnxEku74y0.jpg?size=2560x1578&quality=95&sign=3b5241bf30b03fa5b03fb9e67acf864c&type=album",
     "reference": "https://vk.com/flaconstudios",
     "adress": "Лодыгина, 9",
     "title": "FLACON",
     "price": 1200,
-    "category": 2,
+    "disctrict": 3,
     "popular": 18
   },
   {
@@ -146,7 +146,7 @@
     "adress": "Монастырская, 12",
     "title": "Focus",
     "price": 1000,
-    "category": 1,
+    "disctrict": 1,
     "popular": 17
   },
   {
@@ -156,7 +156,7 @@
     "adress": "Лодыгина, 9",
     "title": "ЛЕЙКА",
     "price": 900,
-    "category": 2,
+    "disctrict": 2,
     "popular": 16
   },
   {
@@ -166,7 +166,7 @@
     "adress": "Окулова, 62",
     "title": "STUDIO24",
     "price": 950,
-    "category": 0,
+    "disctrict": 0,
     "popular": 15
   },
   {
@@ -176,7 +176,7 @@
     "adress": "Клары Цеткин, 14",
     "title": "BABY LOFT",
     "price": 1000,
-    "category": 2,
+    "disctrict": 2,
     "popular": 14
   },
   {
@@ -185,38 +185,48 @@
     "reference": "https://vk.com/fotostudiaperm",
     "adress": "Янаульская, 34",
     "title": "antre'СОЛЬ",
-    "price": 500,
-    "category": 5,
+    "price": 700,
+    "disctrict": 6,
     "popular": 13
   },
   {
     "id": 19,
-    "imageUrl": "https://sun9-41.userapi.com/impf/KRozencTQvb6Gyq7h000yc_59570uDBG5tpM3A/oIO1Vxp0V5c.jpg?size=2560x1707&quality=96&proxy=1&sign=98b2ecf0d58d326336b1f3f0be319fe5&type=album",
-    "reference": "https://vk.com/auraphotostudio",
-    "adress": "Лодыгина, 9",
-    "title": "AURA",
-    "price": 1000,
-    "category": 2,
-    "popular": 2
-  },
-  {
-    "id": 20,
-    "imageUrl": "https://sun9-74.userapi.com/impg/nE6XZRJZBxyWXVYYiM2L9X7zyGj4g4ifg10WSw/d1f_0hJjqQM.jpg?size=2560x1479&quality=96&proxy=1&sign=e7d0d90260c0d1c20e18d97ac5e9287e&type=album",
+    "imageUrl": "https://sun9-70.userapi.com/impf/hlQHPbOJF07Ldx9_KON3XKJX2mAng0DtFjpngA/Gpvqouyvzs4.jpg?size=2560x1707&quality=95&sign=f63a83cae5973681b60b75ea414f232d&type=album",
     "reference": "https://vk.com/fotosmileperm",
     "adress": "Кировоградская, 16а",
     "title": "Smile",
-    "price": 600,
-    "category": 6,
+    "price": 800,
+    "disctrict": 7,
     "popular": 1
   },
   {
-    "id": 21,
+    "id": 20,
     "imageUrl": "https://sun9-11.userapi.com/impg/c858120/v858120718/1ad566/NqJjxqQ8FpI.jpg?size=2560x1707&quality=96&proxy=1&sign=2cb9d99f273a5fee7e935f9891f621e2&type=album",
     "reference": "https://vk.com/fbperm",
     "adress": "Газеты Звезда, 27",
     "title": "FASHION BOX",
     "price": 1000,
-    "category": 1,
+    "disctrict": 1,
     "popular": 3
+  },
+  {
+    "id": 21,
+    "imageUrl": "https://sun9-60.userapi.com/impf/l6EA9CGGk9LyGU-Ss5azvOmRQD0Xs89d90RNKQ/n-4znf4cH18.jpg?size=1242x841&quality=96&sign=694f76cb9121162d6baf45c2594fd006&type=album",
+    "reference": "https://vk.com/avenue_perm59",
+    "adress": "Встречная, 33",
+    "title": "Avenue",
+    "price": 1300,
+    "disctrict": 4,
+    "popular": 13
+  },
+  {
+    "id": 22,
+    "imageUrl": "https://sun9-72.userapi.com/impf/c852216/v852216353/e83b4/xdwyDl6RIZI.jpg?size=604x403&quality=96&sign=9520fd086c3c8c83f2c4a67126dd8df3&type=album",
+    "reference": "https://vk.com/lightdreams59",
+    "adress": "Советской Армии, 72/1",
+    "title": "Light Dreams",
+    "price": 1200,
+    "disctrict": 4,
+    "popular": 2
   }
 ]

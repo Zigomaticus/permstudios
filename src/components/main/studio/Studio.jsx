@@ -23,7 +23,9 @@ const Studio = () => {
             <div className={style.studio__text_title}>{title}</div>
             <div className={style.studio__text_address}>{adress}</div>
             <div className={style.studio__text_reference}>
-              <a href={reference}>Группа вк</a>
+              <a href={reference} target="_blank">
+              {reference}
+              </a>
             </div>
           </div>
           <div className={style.studio__price}>
