@@ -6,5 +6,38 @@
     justify-content: space-between;
     border-radius: 5px;
     border: 1px solid rgb(155, 152, 152);
+    margin-bottom: 10px;
+
+    &__photo {
+      width: 250px;
+      height: 160px;
+      overflow: hidden;
+
+      img {
+        width: 260px;
+        height: 150px;
+      }
+    }
+
+    &__text {
+        text-align: center;
+      margin-top: 35px;
+
+      &_title {
+        font-weight: 700;
+        margin-bottom: 10px;
+      }
+      &_address {
+        margin-bottom: 10px;
+        opacity: .6;
+      }
+      &_reference {
+      }
+    }
+
+    &__price {
+      margin-top: 50px;
+      margin-right: 60px;
+    }
   }
 }

@@ -14,11 +14,23 @@ const Studio = () => {
 
   return (
     <div className={style.main__left}>
-      {studios.map((studio) => (
+      {studios.map(({ imageUrl, title, adress, reference, price }) => (
         <div className={style.studio}>
-          <div className={style.studio__photo}>1</div>
-          <div className={style.studio__text}>2</div>
-          <div className={style.studio__price}>3</div>
+          <div className={style.studio__photo}>
+            <img src={imageUrl} alt="studio photo" />
+          </div>
+          <div className={style.studio__text}>
+            <div className={style.studio__text_title}>{title}</div>
+            <div className={style.studio__text_address}>{adress}</div>
+            <div className={style.studio__text_reference}>
+              <a href={reference}>Группа вк</a>
+            </div>
+          </div>
+          <div className={style.studio__price}>
+            Цена:
+            <br />
+            от {price}
+          </div>
         </div>
       ))}
     </div>
