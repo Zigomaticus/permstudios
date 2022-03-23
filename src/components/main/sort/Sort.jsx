@@ -2,13 +2,13 @@ import React from "react";
 // Css
 import styles from "./Sort.module.scss";
 
-const Sort = ({ sort, sortPriceUp, sortPriceDown, sortPopelar }) => {
+const Sort = ({ sortPriceUp, sortPriceDown, sortPopular }) => {
   return (
-    <div>
-      <button onClick={sort}>name</button>
-      <button onClick={sortPriceUp}>priceUp</button>
-      <button onClick={sortPriceDown}>priceDown</button>
-      <button onClick={sortPopelar}>popular</button>
+    <div className={styles.sort}>
+      <p>Сортировка по:</p>
+      <div onClick={sortPriceUp}>priceUp</div>
+      <div onClick={sortPriceDown}>priceDown</div>
+      <div onClick={sortPopular}>popular</div>
     </div>
   );
 };

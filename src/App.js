@@ -19,15 +19,12 @@ function App() {
       .then(({ data }) => setStudios(data));
   }, []);
 
-  
+  // Search studio
   const searchStudio = (e) => {
     setSearch(e.target.value);
-  }
-
-  const sort = () => {
-    setStudios([...studios].sort((a, b) => b.title.localeCompare(a.title)));
   };
 
+  // Sort studio
   const sortPriceUp = () => {
     setStudios([...studios].sort((a, b) => a.price - b.price));
   };
@@ -36,25 +33,21 @@ function App() {
     setStudios([...studios].sort((a, b) => b.price - a.price));
   };
 
-  const sortPopelar = () => {
+  const sortPopular = () => {
     setStudios([...studios].sort((a, b) => b.popular - a.popular));
-  };
-
-  const filterStudio = () => {
-    setStudios([...studios].filter((name) => name.title()));
   };
 
   return (
     <div className="App">
       <Header searchStudio={searchStudio} search={search} />
-      <District />
+      <District
+      />
       <div className="main">
-        <Studio studios={studios} sort={sort} search={search} />
+        <Studio studios={studios} search={search} />
         <Sort
-          sort={sort}
           sortPriceUp={sortPriceUp}
           sortPriceDown={sortPriceDown}
-          sortPopelar={sortPopelar}
+          sortPopular={sortPopular}
         />
       </div>
       <div className="bottom">123</div>
