@@ -1,6 +1,7 @@
 // Libraries
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import { TripleMaze } from "react-spinner-animated";
 // Components
 import Header from "./components/header/Header";
 import District from "./components/district/District";
@@ -40,17 +41,19 @@ function App() {
   return (
     <div className="App">
       <Header searchStudio={searchStudio} search={search} />
-      <District
-      />
+      {/* <District /> */}
       <div className="main">
-        <Studio studios={studios} search={search} />
+        {studios.length !== 0 ? (
+          <Studio studios={studios} search={search} />
+        ) : (
+          <TripleMaze />
+        )}
         <Sort
           sortPriceUp={sortPriceUp}
           sortPriceDown={sortPriceDown}
           sortPopular={sortPopular}
         />
       </div>
-      <div className="bottom">123</div>
     </div>
   );
 }

@@ -6,7 +6,9 @@ const Studio = ({ studios, search }) => {
   return (
     <div className={style.main__left}>
       {studios
-        .filter((item) => item.title.toLowerCase().includes(search.toLowerCase()))
+        .filter((item) =>
+          item.title.toLowerCase().includes(search.toLowerCase())
+        )
         .map(({ imageUrl, title, adress, reference, price, id }) => (
           <div className={style.studio} key={id}>
             <div className={style.studio__photo}>
