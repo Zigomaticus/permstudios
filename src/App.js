@@ -11,6 +11,7 @@ import "./App.scss";
 
 function App() {
   const [studios, setStudios] = useState([]);
+  const [search, setSearch] = useState("");
 
   useEffect(() => {
     axios
@@ -18,21 +19,43 @@ function App() {
       .then(({ data }) => setStudios(data));
   }, []);
 
+  
+  const searchStudio = (e) => {
+    setSearch(e.target.value);
+  }
+
   const sort = () => {
-    setStudios([...studios].sort((a, b) => a.title.localeCompare(b.title)));
+    setStudios([...studios].sort((a, b) => b.title.localeCompare(a.title)));
   };
 
-  const sortPrice = () => {
+  const sortPriceUp = () => {
     setStudios([...studios].sort((a, b) => a.price - b.price));
+  };
+
+  const sortPriceDown = () => {
+    setStudios([...studios].sort((a, b) => b.price - a.price));
+  };
+
+  const sortPopelar = () => {
+    setStudios([...studios].sort((a, b) => b.popular - a.popular));
+  };
+
+  const filterStudio = () => {
+    setStudios([...studios].filter((name) => name.title()));
   };
 
   return (
     <div className="App">
-      <Header />
+      <Header searchStudio={searchStudio} search={search} />
       <District />
       <div className="main">
-        <Studio studios={studios} sort={sort} />
-        <Sort sort={sort} sortPrice={sortPrice} />
+        <Studio studios={studios} sort={sort} search={search} />
+        <Sort
+          sort={sort}
+          sortPriceUp={sortPriceUp}
+          sortPriceDown={sortPriceDown}
+          sortPopelar={sortPopelar}
+        />
       </div>
       <div className="bottom">123</div>
     </div>

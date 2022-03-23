@@ -1,10 +1,12 @@
-import React from "react";
+// Libraries
+import React, { useState } from "react";
 // Static
 import logo from "../../static/logo.png";
 // Css
 import styles from "./Header.module.scss";
 
-const Header = () => {
+const Header = ({searchStudio, search}) => {
+
   return (
     <div className={styles.header}>
       <div className={styles.header__logo}>
@@ -16,7 +18,7 @@ const Header = () => {
           Все фотостудии Перми на одном сайте
         </div>
       </div>
-      <input placeholder="Найти студию..." />
+      <input placeholder="Найти студию..." value={search} onChange={searchStudio} />
     </div>
   );
 };
