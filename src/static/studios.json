@@ -6,7 +6,9 @@
     "adress": "Дружбы, 34а (площадь Дружбы)",
     "title": "PRESTIGE",
     "price": 1300,
-    "disctrict": 5,
+    "disctrictAll": 0,
+    "disctrictId": 5,
+    "disctrictName": "Мотовилихинский",
     "popular": 30
   },
   {
@@ -16,7 +18,9 @@
     "adress": "Лодыгина, 9",
     "title": "HISTORY . Зал Loft",
     "price": 1290,
-    "disctrict": 3,
+    "disctrictAll": 0,
+    "disctrictId": 3,
+    "disctrictName": "Свердловский",
     "popular": 28
   },
   {
@@ -26,17 +30,21 @@
     "adress": "Пионерская, 4",
     "title": "HISTORY .Залы Форма и History",
     "price": 1300,
-    "disctrict": 3,
+    "disctrictAll": 0,
+    "disctrictId": 3,
+    "disctrictName": "Свердловский",
     "popular": 29
   },
   {
     "id": 3,
     "imageUrl": "https://sun9-51.userapi.com/impg/c857424/v857424560/236b5f/LooaMZId6XQ.jpg?size=2560x1706&quality=96&proxy=1&sign=ca175f8739540596e113a9bada918942&type=album",
     "reference": "https://vk.com/novamaska",
-    "adress": "Ленина, д. 34Б",
+    "adress": "Ленина, 34Б",
     "title": "Новая Маска",
-    "price": 1200,
-    "disctrict": 1,
+    "price": 1300,
+    "disctrictAll": 0,
+    "disctrictId": 2,
+    "disctrictName": "Ленинский",
     "popular": 27
   },
   {
@@ -46,7 +54,9 @@
     "adress": "Шоссе Космонавтов, 111, корпус 27",
     "title": "ARTHOUSE",
     "price": 1300,
-    "disctrict": 4,
+    "disctrictAll": 0,
+    "disctrictId": 4,
+    "disctrictName": "Индустриальный",
     "popular": 6
   },
   {
@@ -55,8 +65,10 @@
     "reference": "https://vk.com/permiris",
     "adress": "25 Октября ул. 17",
     "title": "Ирис",
-    "price": 550,
-    "disctrict": 1,
+    "price": 800,
+    "disctrictAll": 0,
+    "disctrictId": 2,
+    "disctrictName": "Ленинский",
     "popular": 25
   },
   {
@@ -66,7 +78,9 @@
     "adress": "Уральская, 102",
     "title": "ОКНА",
     "price": 1100,
-    "disctrict": 5,
+    "disctrictAll": 0,
+    "disctrictId": 6,
+    "disctrictName": "Орджоникидзевский",
     "popular": 24
   },
   {
@@ -76,7 +90,9 @@
     "adress": "Окулова 75, корпус 8",
     "title": "NOFRAME",
     "price": 1200,
-    "disctrict": 1,
+    "disctrictAll": 0,
+    "disctrictId": 1,
+    "disctrictName": "Дзержинский",
     "popular": 23
   },
   {
@@ -86,7 +102,9 @@
     "adress": "Куйбышева, 2",
     "title": "Мозайка",
     "price": 1000,
-    "disctrict": 1,
+    "disctrictAll": 0,
+    "disctrictId": 2,
+    "disctrictName": "Ленинский",
     "popular": 23
   },
   {
@@ -96,27 +114,33 @@
     "adress": "Монастырская, 12а",
     "title": "КАРАМЕЛЬ",
     "price": 800,
-    "disctrict": 1,
+    "disctrictAll": 0,
+    "disctrictId": 2,
+    "disctrictName": "Ленинский",
     "popular": 22
   },
   {
     "id": 10,
-    "imageUrl": "https://sun9-55.userapi.com/impf/6yMA5Fdno49aitFl2KhDk6OgX6o4EUp-Gj0Low/2ynAAJfpj94.jpg?size=1920x1440&quality=96&proxy=1&sign=47d8d99f803578fc707b0effd0cb164d&type=album",
+    "imageUrl": "https://sun9-48.userapi.com/impg/jSF2XpXVKBhlRrQLmDBMLBcuT1N_An_RQA9M6Q/I9e6BkhKxRw.jpg?size=1000x556&quality=96&sign=3f34b5e7fef0c22c24ff800e462b4282&type=album",
     "reference": "https://vk.com/fotostudiyaperm",
     "adress": "Лодыгина, 9",
     "title": "Лес",
     "price": 900,
-    "disctrict": 2,
+    "disctrictAll": 0,
+    "disctrictId": 3,
+    "disctrictName": "Свердловский",
     "popular": 21
   },
   {
     "id": 11,
-    "imageUrl": "https://sun9-64.userapi.com/impg/JLVWElVRhEXXgCX5pW3kgv1fp4oZgtWZFccaWQ/wC9qkDwwhyk.jpg?size=2560x1707&quality=96&proxy=1&sign=0a5414824cd74570031c4782432efe8c&type=album",
+    "imageUrl": "https://sun9-78.userapi.com/impf/0MobGs5zHpXskpqR9Pcu7lc8TNVsVE00paM0YA/NTOgK1Cefds.jpg?size=1920x1440&quality=96&sign=6bc6b630fcc16835e25ad1cb7c0e7ba7&type=album",
     "reference": "https://vk.com/manka_perfect_space",
     "adress": "Чернышевского, 15б",
     "title": "MANKA",
-    "price": 1000,
-    "disctrict": 2,
+    "price": 1200,
+    "disctrictAll": 0,
+    "disctrictId": 3,
+    "disctrictName": "Свердловский",
     "popular": 20
   },
   {
@@ -126,7 +150,9 @@
     "adress": "Веры Засуличь, 42а",
     "title": "Lampa",
     "price": 900,
-    "disctrict": 4,
+    "disctrictAll": 0,
+    "disctrictId": 4,
+    "disctrictName": "Индустриальный",
     "popular": 19
   },
   {
@@ -136,27 +162,33 @@
     "adress": "Лодыгина, 9",
     "title": "FLACON",
     "price": 1200,
-    "disctrict": 3,
+    "disctrictAll": 0,
+    "disctrictId": 3,
+    "disctrictName": "Свердловский",
     "popular": 18
   },
   {
     "id": 14,
-    "imageUrl": "https://sun9-56.userapi.com/impg/B2DXYhEaoCiGo2iz4DVGzXSKLuIC1ltnAMP02w/LBAB7ccfBnI.jpg?size=2560x1707&quality=96&proxy=1&sign=d0bb281c9ba6f2aee425f49f6950866b&type=album",
+    "imageUrl": "https://sun9-44.userapi.com/impf/j5zEO7PZYfvP0b9YWBIMrvQaXpzM6Dru1Q-EDg/eauXsKhQdf0.jpg?size=1920x970&quality=96&sign=6c8d8f11a63fcd8d8b3a7b37dfe8293a&type=album",
     "reference": "https://vk.com/studiofocusperm",
     "adress": "Монастырская, 12",
     "title": "Focus",
     "price": 1000,
-    "disctrict": 1,
+    "disctrictAll": 0,
+    "disctrictId": 2,
+    "disctrictName": "Ленинский",
     "popular": 17
   },
   {
     "id": 15,
-    "imageUrl": "https://sun9-25.userapi.com/impf/Q1iJHRx1sRfTYfCaKwRBa-mWkxYJAFuZGNBdXw/U8cBWN0oTjg.jpg?size=2560x1706&quality=96&proxy=1&sign=d6a6db70cc4a9dd2df15ef8d8cab3bea&type=album",
+    "imageUrl": "https://sun9-25.userapi.com/impf/Q1iJHRx1sRfTYfCaKwRBa-mWkxYJAFuZGNBdXw/U8cBWN0oTjg.jpg?size=2560x1706&quality=96&sign=d6a6db70cc4a9dd2df15ef8d8cab3bea&type=album",
     "reference": "https://vk.com/leikaphoto_perm",
     "adress": "Лодыгина, 9",
     "title": "ЛЕЙКА",
     "price": 900,
-    "disctrict": 2,
+    "disctrictAll": 0,
+    "disctrictId": 3,
+    "disctrictName": "Свердловский",
     "popular": 16
   },
   {
@@ -166,7 +198,9 @@
     "adress": "Окулова, 62",
     "title": "STUDIO24",
     "price": 950,
-    "disctrict": 0,
+    "disctrictAll": 0,
+    "disctrictId": 1,
+    "disctrictName": "Дзержинский",
     "popular": 15
   },
   {
@@ -175,8 +209,10 @@
     "reference": "https://vk.com/babyloft_perm",
     "adress": "Клары Цеткин, 14",
     "title": "BABY LOFT",
-    "price": 1000,
-    "disctrict": 2,
+    "price": 1500,
+    "disctrictAll": 0,
+    "disctrictId": 3,
+    "disctrictName": "Свердловский",
     "popular": 14
   },
   {
@@ -186,7 +222,9 @@
     "adress": "Янаульская, 34",
     "title": "antre'СОЛЬ",
     "price": 700,
-    "disctrict": 6,
+    "disctrictAll": 0,
+    "disctrictId": 6,
+    "disctrictName": "Орджоникидзевский",
     "popular": 13
   },
   {
@@ -196,37 +234,45 @@
     "adress": "Кировоградская, 16а",
     "title": "Smile",
     "price": 800,
-    "disctrict": 7,
+    "disctrictAll": 0,
+    "disctrictId": 7,
+    "disctrictName": "Кировский",
     "popular": 1
   },
   {
     "id": 20,
-    "imageUrl": "https://sun9-11.userapi.com/impg/c858120/v858120718/1ad566/NqJjxqQ8FpI.jpg?size=2560x1707&quality=96&proxy=1&sign=2cb9d99f273a5fee7e935f9891f621e2&type=album",
-    "reference": "https://vk.com/fbperm",
-    "adress": "Газеты Звезда, 27",
-    "title": "FASHION BOX",
-    "price": 1000,
-    "disctrict": 1,
-    "popular": 3
-  },
-  {
-    "id": 21,
     "imageUrl": "https://sun9-60.userapi.com/impf/l6EA9CGGk9LyGU-Ss5azvOmRQD0Xs89d90RNKQ/n-4znf4cH18.jpg?size=1242x841&quality=96&sign=694f76cb9121162d6baf45c2594fd006&type=album",
     "reference": "https://vk.com/avenue_perm59",
     "adress": "Встречная, 33",
     "title": "Avenue",
     "price": 1300,
-    "disctrict": 4,
+    "disctrictAll": 0,
+    "disctrictId": 4,
+    "disctrictName": "Индустриальный",
     "popular": 13
   },
   {
-    "id": 22,
+    "id": 21,
     "imageUrl": "https://sun9-72.userapi.com/impf/c852216/v852216353/e83b4/xdwyDl6RIZI.jpg?size=604x403&quality=96&sign=9520fd086c3c8c83f2c4a67126dd8df3&type=album",
     "reference": "https://vk.com/lightdreams59",
     "adress": "Советской Армии, 72/1",
     "title": "Light Dreams",
     "price": 1200,
-    "disctrict": 4,
+    "disctrictAll": 0,
+    "disctrictId": 4,
+    "disctrictName": "Индустриальный",
+    "popular": 2
+  },
+  {
+    "id": 22,
+    "imageUrl": "https://sun9-11.userapi.com/impf/AnaNdATga350J-Vi4RJmj6LdR3tGF9ULLtmF-A/KtoSk1hDzgU.jpg?size=2560x1709&quality=96&sign=a0dfafc92e374b9fff896de029ded308&type=album",
+    "reference": "https://vk.com/b52photoperm",
+    "adress": "Лодыгина, 9",
+    "title": "Б52",
+    "price": 1100,
+    "disctrictAll": 0,
+    "disctrictId": 3,
+    "disctrictName": "Свердловский",
     "popular": 2
   }
 ]

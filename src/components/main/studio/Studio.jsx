@@ -1,30 +1,21 @@
-import React, { useState, useEffect } from "react";
-import axios from "axios";
+import React from "react";
 // Css
 import style from "./Studio.module.scss";
 
-const Studio = () => {
-  const [studios, setStudios] = useState([]);
-
-  useEffect(() => {
-    axios
-      .get(`https://6195369874c1bd00176c6c66.mockapi.io/studios`)
-      .then(({ data }) => setStudios(data));
-  }, []);
-
+const Studio = ({ studios, sort }) => {
   return (
     <div className={style.main__left}>
-      {studios.map(({ imageUrl, title, adress, reference, price }) => (
-        <div className={style.studio}>
+      {studios.map(({ imageUrl, title, adress, reference, price, id }) => (
+        <div className={style.studio} key={id}>
           <div className={style.studio__photo}>
-            <img src={imageUrl} alt="studio photo" />
+            <img src={imageUrl} alt="studio" />
           </div>
           <div className={style.studio__text}>
             <div className={style.studio__text_title}>{title}</div>
             <div className={style.studio__text_address}>{adress}</div>
             <div className={style.studio__text_reference}>
-              <a href={reference} target="_blank">
-              {reference}
+              <a href={reference} target="_blank" rel="noopener noreferrer">
+                {reference}
               </a>
             </div>
           </div>

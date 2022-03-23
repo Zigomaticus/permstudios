@@ -1,30 +1,38 @@
-import React from "react";
+// Libraries
+import React, { useState, useEffect } from "react";
+import axios from "axios";
 // Components
 import Header from "./components/header/Header";
 import District from "./components/district/District";
 import Studio from "./components/main/studio/Studio";
+import Sort from "./components/main/sort/Sort";
 // Css
 import "./App.scss";
 
-const disctricts = [
-  { id: 0, name: "Все районы" }, // all
-  { id: 1, name: "Дзержинский" }, // all
-  { id: 2, name: "Ленинский" }, // all
-  { id: 3, name: "Свердловский" }, // all
-  { id: 4, name: "Индустриальный" }, // all
-  { id: 5, name: "Мотовилихинский" }, // all
-  { id: 6, name: "Орджоникидзевский" }, // all
-  { id: 7, name: "Кировский" }, // all
-];
-
 function App() {
+  const [studios, setStudios] = useState([]);
+
+  useEffect(() => {
+    axios
+      .get(`https://6195369874c1bd00176c6c66.mockapi.io/studios`)
+      .then(({ data }) => setStudios(data));
+  }, []);
+
+  const sort = () => {
+    setStudios([...studios].sort((a, b) => a.title.localeCompare(b.title)));
+  };
+
+  const sortPrice = () => {
+    setStudios([...studios].sort((a, b) => a.price - b.price));
+  };
+
   return (
     <div className="App">
       <Header />
-      <District disctricts={disctricts} />
+      <District />
       <div className="main">
-        <Studio />
-        <div className="main__right">321</div>
+        <Studio studios={studios} sort={sort} />
+        <Sort sort={sort} sortPrice={sortPrice} />
       </div>
       <div className="bottom">123</div>
     </div>
