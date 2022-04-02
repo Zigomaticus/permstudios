@@ -1,7 +1,6 @@
 // Libraries
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import { TripleMaze } from "react-spinner-animated";
 // Components
 import Header from "./components/header/Header";
 import District from "./components/district/District";
@@ -46,7 +45,7 @@ function App() {
         {studios.length !== 0 ? (
           <Studio studios={studios} search={search} />
         ) : (
-          <TripleMaze />
+          <div>Идёт загрузка данных ...</div>
         )}
         <Sort
           sortPriceUp={sortPriceUp}
